@@ -44,12 +44,12 @@ Hyphenation patterns for Turkmen in T1/EC and UTF-8 encodings.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-turkmen <<EOF
-%% from hyphen-turkmen:
+\%\% from hyphen-turkmen:
 turkmen loadhyph-tk.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-turkmen <<EOF
-%% from hyphen-turkmen:
+\%\% from hyphen-turkmen:
 \addlanguage{turkmen}{loadhyph-tk.tex}{}{2}{2}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
