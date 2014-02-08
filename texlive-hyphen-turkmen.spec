@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-turkmen
 Version:	20120611
-Release:	1
+Release:	2
 Summary:	Turkmen hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
